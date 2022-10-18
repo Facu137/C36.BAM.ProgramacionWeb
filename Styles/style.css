@@ -1,0 +1,21 @@
+*{
+    background-color: beige;
+}
+div{
+    margin: 50px;
+    background-color: bisque;
+}
+p{
+    font-family: sans-serif;
+    margin: 30px;
+}
+span{
+    color: blueviolet;
+    font-weight: bolder;
+}
+img{
+    width: 350px;
+    margin: 10px;
+    padding: 30px;
+    background-color: brown;
+}
