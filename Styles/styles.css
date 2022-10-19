@@ -1,17 +1,21 @@
-/* .perfil es el div */
 body{
     background-image: url("https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg");
+    font-family:monospace;
 }
+/* .perfil es el div */
 .perfil{
+    /* width es el ancho, max width es el maximo ancho para no separecerse tanto */
     width: 70%;
+    max-width: 500px;
     background-color: cadetblue;
     margin-left:auto;
     margin-right:auto;
     text-align: center;
-
+    /* padding es el espacio al rededor del div */
+    padding: 30px;
 }
 p{
-    font-family: sans-serif;
+
 }
 span{
     color: blueviolet;
@@ -22,5 +26,4 @@ img{
     background-color: brown;
     margin-left:auto;
     margin-right:auto;
-    
 }
