@@ -1,21 +1,26 @@
-*{
-    background-color: beige;
+/* .perfil es el div */
+body{
+    background-image: url("https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg");
 }
-div{
-    margin: 50px;
-    background-color: bisque;
+.perfil{
+    width: 70%;
+    background-color: cadetblue;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+
 }
 p{
     font-family: sans-serif;
-    margin: 30px;
 }
 span{
     color: blueviolet;
     font-weight: bolder;
 }
 img{
-    width: 350px;
-    margin: 10px;
-    padding: 30px;
+    width: 35%;
     background-color: brown;
+    margin-left:auto;
+    margin-right:auto;
+    
 }
