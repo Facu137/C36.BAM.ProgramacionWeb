@@ -7,12 +7,16 @@ body{
     /* width es el ancho, max width es el maximo ancho para no separecerse tanto */
     width: 70%;
     max-width: 500px;
-    background-color: cadetblue;
-    margin-left:auto;
-    margin-right:auto;
+
+    /* linear gradiente para usar varios colores, (primero los grados, seguido de al menos 2 color en RGB o HSL) */
+    background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(245, 62, 113) 50%, rgb(162, 27, 27) 100%);
+
+    margin:30 auto;
     text-align: center;
-    /* padding es el espacio al rededor del div */
-    padding: 30px;
+    
+    /* padding es el espacio interior al rededor del div, 30 arriba abujo, 0 a los costados */
+    padding: 30px 0;
+
 }
 p{
 
@@ -24,6 +28,8 @@ span{
 img{
     width: 35%;
     background-color: brown;
-    margin-left:auto;
-    margin-right:auto;
+    margin:50 auto;
+}
+hr {
+width: 100px;
 }
